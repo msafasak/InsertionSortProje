@@ -1,0 +1,32 @@
+[22,27,16,2,18,6] > Insertion sort
+
+0. terim 22.
+
+22*, 27, 16, 2, 18, 6, > dizinin ilk terimi seçildi
+
+22, 27*, 16, 2, 18, 6 > ikinci terime kaydık. soldakinden küçük olup olmadığını kontrol edeceğiz.
+
+22, 27, 16**, 2, 18, 6 > 3. aşamayı 16'yı gördük. 16 sayısı 22 ve 27'den küçüktür bu yüzden başa kayar.
+
+16, 22, 27, 2**, 18, 6 > 4. aşamada 2yi gördük en başa gelir.
+
+2, 16, 22, 27, 18, 6 > bu şekilde devam eder. en son
+
+2, 6, 16, 18, 22, 27 haline gelir.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+18 sayısı Average casedir.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Worst kase durumunda Big O notationumuz ise: O(n^2)
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+[7,3,5,8,2,9,4,15,6]
+
+1. Aşama >> dizimizde en küçük terim 2'yi tek tek aradık bulduk. En sola ekledik. [2,7,3,5,8,9,4,15,6]
+2. Aşama >> dizimizde 2. en küçük terim olan 3'ü buluz. 2'nin sağına koyduk. [2,3,7,5,8,9,4,15,6]
+3. Aşama >> dizimizde 3. en küçük terimi bulup yazarız. [2,3,4,7,5,8,9,15,6]
+4. Aşama >> aynı şekilde 4. terimi bulduk ve ekledik.  [2,3,4,5,7,8,9,15,6]
